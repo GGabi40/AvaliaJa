@@ -40,7 +40,7 @@ formulario.addEventListener('submit', function(e) {
 
     // Recebe variavel 'imc' e a Classifica
     function getClasif(imc) { 
-        const clasificacion = ['Baixo Peso', 'Peso Normal', 'Sobrepeso', 'Obesidade grau 1', 'Obesidade grau 2', 'Obesidade grau 3'];
+        const clasificacion = ['Baixo Peso', 'Eutrófico', 'Sobrepeso', 'Obesidade grau 1', 'Obesidade grau 2', 'Obesidade grau 3'];
 
         // Retorna a clasificacion
         if (imc <= 18.5) { return clasificacion[0] };
