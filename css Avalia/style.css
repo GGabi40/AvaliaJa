@@ -9,7 +9,7 @@
             --more-Color: rgb(224, 86, 93);
         }
 
-        @media (max-width: 952px){
+        @media (max-width: 570px){
             .text-zona2, .text-zona3 {
                 display: flex;
                 flex-direction: column;
